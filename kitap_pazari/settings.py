@@ -132,3 +132,10 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 #         # https://www.django-rest-framework.org/api-guide/permissions/ sitesinden tum islemleri ayrintili olarak inceleyebilirsin.
 #     ]
 # }
+
+# REST_FRAMEWORK = {
+#     # 'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+#     # 'DEFAULT_PAGINATION_CLASS': 'kitaplar.api.pagination.LargePagination', # burada kendi yazdigimiz pagination class'ini global policy (genel politika) olarak belirledik.
+#     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination', # url alanina dikkat et (offset kacinci kayittan baslayacagini, limit ise kac kayit gosterecegini belirtir.)
+#     'PAGE_SIZE': 10
+# }
